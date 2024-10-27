@@ -7,7 +7,15 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <h2>rollup test!</h2>
-      <Button label="rollup component!!!" onClick={() => {}} type="button" />
+      <Button
+        variant="solid"
+        type="secondary"
+        size="large"
+        disabled={false}
+        onClick={() => {}}
+      >
+        버튼
+      </Button>
     </div>
   );
 }
