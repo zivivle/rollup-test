@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 // import localFont from "next/font/local";
-import "zivivle-rollup/dist/styles.css";
+// import "zivivle-rollup/dist/styles.css";
 import "./globals.css";
 
 // const geistSans = localFont({
